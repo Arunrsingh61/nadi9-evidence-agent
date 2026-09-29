@@ -1,0 +1,163 @@
+{
+  "grammar:word_order": {
+    "key": "grammar:word_order",
+    "variants": [
+      {
+        "value": "SOV",
+        "scope": {
+          "tense": "present"
+        },
+        "support": [
+          "order-G",
+          "order-E"
+        ],
+        "counterexamples": [],
+        "tests": [
+          {
+            "evidence": "example-01",
+            "passed": true
+          },
+          {
+            "evidence": "example-02",
+            "passed": true
+          }
+        ],
+        "score": 0.95,
+        "supported": true
+      }
+    ]
+  },
+  "lex:elder": {
+    "key": "lex:elder",
+    "variants": [
+      {
+        "value": "ara",
+        "scope": {},
+        "support": [
+          "lex-elder-A",
+          "lex-elder-B"
+        ],
+        "counterexamples": [],
+        "tests": [],
+        "score": 0.85,
+        "supported": true
+      }
+    ]
+  },
+  "lex:greet": {
+    "key": "lex:greet",
+    "variants": [
+      {
+        "value": "salu",
+        "scope": {},
+        "support": [
+          "lex-greet-A",
+          "lex-greet-B"
+        ],
+        "counterexamples": [],
+        "tests": [],
+        "score": 0.85,
+        "supported": true
+      }
+    ]
+  },
+  "lex:i": {
+    "key": "lex:i",
+    "variants": [
+      {
+        "value": "mi",
+        "scope": {},
+        "support": [
+          "lex-i-A",
+          "lex-i-B"
+        ],
+        "counterexamples": [],
+        "tests": [],
+        "score": 0.85,
+        "supported": true
+      }
+    ]
+  },
+  "lex:river": {
+    "key": "lex:river",
+    "variants": [
+      {
+        "value": "naru",
+        "scope": {},
+        "support": [
+          "lex-river-A",
+          "lex-river-B"
+        ],
+        "counterexamples": [],
+        "tests": [],
+        "score": 0.85,
+        "supported": true
+      }
+    ]
+  },
+  "lex:see": {
+    "key": "lex:see",
+    "variants": [
+      {
+        "value": "vek",
+        "scope": {},
+        "support": [
+          "lex-see-A",
+          "lex-see-B"
+        ],
+        "counterexamples": [],
+        "tests": [],
+        "score": 0.85,
+        "supported": true
+      }
+    ]
+  },
+  "lex:work": {
+    "key": "lex:work",
+    "variants": [
+      {
+        "value": "lum",
+        "scope": {},
+        "support": [
+          "lex-work-A",
+          "lex-work-B"
+        ],
+        "counterexamples": [],
+        "tests": [],
+        "score": 0.85,
+        "supported": true
+      }
+    ]
+  },
+  "lex:you": {
+    "key": "lex:you",
+    "variants": [
+      {
+        "value": "ti",
+        "scope": {},
+        "support": [
+          "lex-you-A",
+          "lex-you-B"
+        ],
+        "counterexamples": [],
+        "tests": [],
+        "score": 0.85,
+        "supported": true
+      },
+      {
+        "value": "tira",
+        "scope": {
+          "relationship": "junior_to_senior"
+        },
+        "support": [
+          "you-respect-A",
+          "you-respect-B"
+        ],
+        "counterexamples": [],
+        "tests": [],
+        "score": 0.85,
+        "supported": true
+      }
+    ]
+  }
+}

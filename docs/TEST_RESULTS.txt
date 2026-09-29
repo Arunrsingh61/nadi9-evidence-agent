@@ -1,0 +1,29 @@
+test_approved_example_revoked (test_pipeline.PipelineTests.test_approved_example_revoked) ... ok
+test_bad_timing_rejected (test_pipeline.PipelineTests.test_bad_timing_rejected) ... ok
+test_budget_cap (test_pipeline.PipelineTests.test_budget_cap) ... ok
+test_correction_only_impacted_line (test_pipeline.PipelineTests.test_correction_only_impacted_line) ... ok
+test_counterexample_visible (test_pipeline.PipelineTests.test_counterexample_visible) ... ok
+test_dictionary_conflict (test_pipeline.PipelineTests.test_dictionary_conflict) ... ok
+test_empty_pack_hold (test_pipeline.PipelineTests.test_empty_pack_hold) ... ok
+test_fabricated_model_grammar_rejected (test_pipeline.PipelineTests.test_fabricated_model_grammar_rejected) ... ok
+test_failed_tool_retry (test_pipeline.PipelineTests.test_failed_tool_retry) ... ok
+test_injected_instructions_are_data (test_pipeline.PipelineTests.test_injected_instructions_are_data) ... ok
+test_invalid_correction_atomic (test_pipeline.PipelineTests.test_invalid_correction_atomic) ... ok
+test_malformed_provider_response (test_pipeline.PipelineTests.test_malformed_provider_response) ... ok
+test_name_and_number_preservation (test_pipeline.PipelineTests.test_name_and_number_preservation) ... ok
+test_new_evidence_revisits_previously_unknown_term (test_pipeline.PipelineTests.test_new_evidence_revisits_previously_unknown_term) ... ok
+test_omission_and_addition_independent_check (test_pipeline.PipelineTests.test_omission_and_addition_independent_check) ... ok
+test_overlap_and_reading_speed (test_pipeline.PipelineTests.test_overlap_and_reading_speed) ... ok
+test_persistent_failure_safe (test_pipeline.PipelineTests.test_persistent_failure_safe) ... ok
+test_relationship_sense (test_pipeline.PipelineTests.test_relationship_sense) ... ok
+test_single_origin_cannot_corroborate_itself (test_pipeline.PipelineTests.test_single_origin_cannot_corroborate_itself) ... ok
+test_snapshot_resume_preserves_budget_and_audit (test_pipeline.PipelineTests.test_snapshot_resume_preserves_budget_and_audit) ... ok
+test_supported_line (test_pipeline.PipelineTests.test_supported_line) ... ok
+test_synthetic_release_hold_and_evidence_resolution (test_pipeline.PipelineTests.test_synthetic_release_hold_and_evidence_resolution) ... ok
+test_unseen_tense_abstains (test_pipeline.PipelineTests.test_unseen_tense_abstains) ... ok
+test_unsupported_term_abstains (test_pipeline.PipelineTests.test_unsupported_term_abstains) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.063s
+
+OK

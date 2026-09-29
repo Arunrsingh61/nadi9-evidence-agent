@@ -1,0 +1,187 @@
+[
+  {
+    "subtitle_id": "S002",
+    "source_text": "I see work.",
+    "nadi_9_text": "mi lum vek",
+    "start_ms": 4000,
+    "end_ms": 7500,
+    "speaker": "Asha",
+    "confidence": 0.45,
+    "confidence_reason": "Heuristic evidence score, NOT an empirically calibrated probability. Minimum corroborated claim score; review capped at 0.45; abstention 0.",
+    "decision": "HUMAN_REVIEW",
+    "evidence": [
+      "example-01",
+      "example-02",
+      "lex-i-A",
+      "lex-i-B",
+      "lex-see-A",
+      "lex-see-B",
+      "lex-work-A",
+      "lex-work-B",
+      "order-E",
+      "order-G",
+      "work-poison"
+    ],
+    "assumptions": [
+      "relationship=peers",
+      "tense=present",
+      "Source-unit roles and preservation labels are human-curated."
+    ],
+    "conflicts": [
+      {
+        "key": "lex:work",
+        "evidence": [
+          "lex-work-A",
+          "lex-work-B",
+          "work-poison"
+        ]
+      }
+    ],
+    "review_question": "For S002 in {\"relationship\": \"peers\", \"tense\": \"present\"}, resolve: Conflicting evidence for work Please supply a scoped correction and supporting source.",
+    "verification": [
+      {
+        "code": "LEXICAL_CONFLICT",
+        "detail": "Conflicting evidence for work"
+      }
+    ],
+    "proposal": {
+      "text": "mi lum vek",
+      "alignments": [
+        {
+          "unit": 0,
+          "target": "mi"
+        },
+        {
+          "unit": 2,
+          "target": "lum"
+        },
+        {
+          "unit": 1,
+          "target": "vek"
+        }
+      ],
+      "rule": "SOV"
+    },
+    "dependencies": [
+      "grammar:word_order",
+      "lex:i",
+      "lex:see",
+      "lex:work"
+    ],
+    "revision": 0,
+    "pack_hash": "a4cdce5a861dbcf5b7e473d03b43a76c7b5176749fc97596f071ebab0f42ce82",
+    "provider_errors": []
+  },
+  {
+    "subtitle_id": "S003",
+    "source_text": "I see moon.",
+    "nadi_9_text": null,
+    "start_ms": 8000,
+    "end_ms": 11500,
+    "speaker": "Asha",
+    "confidence": 0,
+    "confidence_reason": "Heuristic evidence score, NOT an empirically calibrated probability. Minimum corroborated claim score; review capped at 0.45; abstention 0.",
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "evidence": [
+      "example-01",
+      "example-02",
+      "lex-i-A",
+      "lex-i-B",
+      "lex-see-A",
+      "lex-see-B",
+      "order-E",
+      "order-G"
+    ],
+    "assumptions": [
+      "relationship=peers",
+      "tense=present",
+      "Source-unit roles and preservation labels are human-curated."
+    ],
+    "conflicts": [],
+    "review_question": "What is the evidenced Nadi-9 rendering of moon for context {\"relationship\": \"peers\", \"tense\": \"present\"}? Please cite an example.",
+    "verification": [
+      {
+        "code": "NO_TRANSLATION",
+        "detail": "Evidence or provider did not yield a complete proposal."
+      }
+    ],
+    "proposal": {
+      "text": null,
+      "alignments": [],
+      "rule": null
+    },
+    "dependencies": [
+      "grammar:word_order",
+      "lex:i",
+      "lex:moon",
+      "lex:see"
+    ],
+    "revision": 0,
+    "pack_hash": "a4cdce5a861dbcf5b7e473d03b43a76c7b5176749fc97596f071ebab0f42ce82",
+    "provider_errors": []
+  },
+  {
+    "subtitle_id": "S007",
+    "source_text": "I see river.",
+    "nadi_9_text": "mi naru vek",
+    "start_ms": 24000,
+    "end_ms": 27500,
+    "speaker": "Asha",
+    "confidence": 0.45,
+    "confidence_reason": "Heuristic evidence score, NOT an empirically calibrated probability. Minimum corroborated claim score; review capped at 0.45; abstention 0.",
+    "decision": "HUMAN_REVIEW",
+    "evidence": [
+      "example-01",
+      "example-02",
+      "lex-i-A",
+      "lex-i-B",
+      "lex-river-A",
+      "lex-river-B",
+      "lex-see-A",
+      "lex-see-B",
+      "order-E",
+      "order-G"
+    ],
+    "assumptions": [
+      "humour=ironic understatement",
+      "relationship=peers",
+      "tense=present",
+      "Source-unit roles and preservation labels are human-curated."
+    ],
+    "conflicts": [],
+    "review_question": "For S007 in {\"relationship\": \"peers\", \"tense\": \"present\", \"humour\": \"ironic understatement\"}, resolve: Humour, ambiguity or tone needs expert interpretation. Please supply a scoped correction and supporting source.",
+    "verification": [
+      {
+        "code": "PRAGMATICS",
+        "detail": "Humour, ambiguity or tone needs expert interpretation."
+      }
+    ],
+    "proposal": {
+      "text": "mi naru vek",
+      "alignments": [
+        {
+          "unit": 0,
+          "target": "mi"
+        },
+        {
+          "unit": 2,
+          "target": "naru"
+        },
+        {
+          "unit": 1,
+          "target": "vek"
+        }
+      ],
+      "rule": "SOV"
+    },
+    "dependencies": [
+      "grammar:word_order",
+      "lex:i",
+      "lex:river",
+      "lex:see"
+    ],
+    "revision": 0,
+    "pack_hash": "a4cdce5a861dbcf5b7e473d03b43a76c7b5176749fc97596f071ebab0f42ce82",
+    "provider_errors": []
+  }
+]

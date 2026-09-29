@@ -1,0 +1,10 @@
+{
+  "id": "C001",
+  "author": "Fixture expert",
+  "reason": "Vendor work-poison entry is withdrawn after source review.",
+  "invalidate": [
+    "work-poison"
+  ],
+  "add": [],
+  "sources": []
+}

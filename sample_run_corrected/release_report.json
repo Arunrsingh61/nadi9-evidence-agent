@@ -1,0 +1,17 @@
+{
+  "release": "HOLD",
+  "synthetic": true,
+  "total_lines": 7,
+  "approved": 5,
+  "needs_review": 2,
+  "missing_material_categories": [
+    "audio"
+  ],
+  "budget": {
+    "max_model": 25,
+    "max_tool": 50,
+    "model": 0,
+    "tool": 8
+  },
+  "pack_hash": "142c0ca7c0853aeee43576f6e05b948d3750607afcaee25adcc7da0981430a9f"
+}
